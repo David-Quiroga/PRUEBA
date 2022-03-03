@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    font-size: sans-serif;
+    height: 100vh;
+    background: url(../imagenes/fondo.jpg);
+    background-size: cover;
+}
+.box{
+    width: 320px;
+    height: 420px;
+    background: white;
+    color: rgb(219, 25, 25);
+    top: 20%;
+    left: 40%;
+    position:absolute;
+    transform: translate (-50%, -50%);
+    box-sizing: border-box;
+    padding: 60px 40px;
+    border: 1px solid rgb(114, 350, 101);
+}
+
+.box .logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+.box h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.box label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+.box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.box input[type="text"],
+.box input[type="Contraseña"] {
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.box input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: rgb(250, 81, 81);
+    color: #fff;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.box a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: rgb(0, 0, 0);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.box a:hover{
+    color:blueviolet
+}

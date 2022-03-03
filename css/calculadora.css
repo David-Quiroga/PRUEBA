@@ -1,0 +1,51 @@
+body{
+    background-image: url(imagenes/WhatsApp\ Image\ 2022-02-23\ at\ 19.10.17.jpeg) ;
+    background-size: 1500px;
+}
+
+
+#titulo{
+text-align: center;
+color: black;
+}
+
+#descripcion{
+    color: black;
+    font-size: 18px;
+}
+
+#bloque{
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    margin-top: 50px;
+    background:white;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px;
+}
+
+.datos{
+    display: block;
+    margin: auto;
+    width: 90%;
+    height: 1rem;
+    padding: 0.25rem 1.5rem;
+    margin-bottom: 70px;
+    border: 3PX solid black;
+    border-radius: 5px;
+    background: white;
+}
+
+label{
+    color: black ;
+    font-size: 20px;
+}
+#boton{
+    display: block;
+    width: 40%;
+    height: 50px;
+    margin: auto;
+    background: white;
+    font-size: 18px;
+}

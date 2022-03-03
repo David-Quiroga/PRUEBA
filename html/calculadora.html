@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Piscinas</title>
+    <link rel="stylesheet" href="/css/calculadora.css">
+</head>
+    <body>
+        <main id="bloque">
+            <header> 
+                <h1 id="titulo">Calculadora</h1>
+            </header>
+            <p id="descripcion"><b>Nota:</b> Los datos deben ser ingresados en metros (m) </p>
+            <form> 
+                <label for="largo">Largo :</label> 
+                <input type="number" name="largo" step="0.01" class="datos" min="0" max="100" required placeholder="Ingrese el largo de la piscina">
+                <label for="ancho"> Ancho :</label> 
+                <input type="number" name="ancho" step="0.01" class="datos" min="0" max="100" placeholder="Ingrese la profundidad media de la piscina" required>
+                <label for="profundidad"> Profundidad media:</label> 
+                <input type="number" name="profundidad" step="0.01" class="datos" min="0" max="100" placeholder="Ingrese la profundidad media de la piscina" required>
+                <input type="submit" value="Calcular" id="boton">
+            </form>
+        </main>
+    </body>
+    </html>

@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(/imagenes/fondo.jpg);   
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+#info{
+    color: rgb(12, 12, 12);
+    font-size: large;
+    padding: 20px;
+    display: inline-block;
+    background-color: rgb(189, 189, 189);
+}
+#centrar {
+    align-items: center;
+}
+
+#cuadro{
+    margin: auto;
+    background-color: rgb(120, 160, 160);
+    width: 3px;
+    height: 8px;
+    opacity: 25%;
+}
+
+#titulo{
+text-align: center;
+color: black;
+}
+
+#descripcion{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+}
+
+#bloque{
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    margin-top: 50px;
+    background:white;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px;
+}
+
+.datos{
+    display: block;
+    margin: auto;
+    width: 90%;
+    height: 1rem;
+    padding: 0.25rem 1.5rem;
+    margin-bottom: 70px;
+    border: 3PX solid black;
+    border-radius: 5px;
+    background: white;
+}
+
+label{
+    color: black ;
+    font-size: 20px;
+}
+#boton{
+    display: block;
+    width: 40%;
+    height: 50px;
+    margin: auto;
+    background: white;
+    font-size: 18px;
+}
